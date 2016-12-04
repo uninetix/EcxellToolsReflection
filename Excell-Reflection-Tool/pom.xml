@@ -4,7 +4,7 @@
   <artifactId>Excell-Reflection-Tool</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <build>
-    <sourceDirectory>3src</sourceDirectory>
+    <sourceDirectory>src</sourceDirectory>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -18,7 +18,7 @@
   </build>
   <dependencies>
   	<dependency>
-  		<groupId>org.apache.poi</groupId>
+  		<groupId>org.apacheopi.poi</groupId>
   		<artifactId>poi</artifactId>
   		<version>3.7</version>
   	</dependency>
